@@ -18,7 +18,7 @@ model:
     use_ema: False
     only_mid_control: False
 
-    control_stage_config:
+    control_stage_config:e
       target: cldm.cldm.ControlNet
       params:
         image_size: 32 # unused
